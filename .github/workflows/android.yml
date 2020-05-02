@@ -14,4 +14,4 @@ jobs:
       - name: Build with Gradle
         run: ./gradlew assembleDebug lintVitalRelease
       - run: "ls -a -b -h -R build"
-        name: "TEMPORARY"
+        name: "check"
