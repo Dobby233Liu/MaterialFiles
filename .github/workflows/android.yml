@@ -12,6 +12,6 @@ jobs:
         with:
           java-version: 1.8
       - name: Build with Gradle
-        run: ./gradlew assembleDebug lintVitalRelease
-      - run: "ls -a -b -h -R build"
+        run: ./gradlew
+      - run: "ls -a -b -h -R *.apk"
         name: "check"
